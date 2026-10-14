@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-devanagari: 'Noto Sans Devanagari', 'Plus Jakarta Sans', sans-serif;
+  --color-primary: #245C49;
+  --color-sage: #E4EEE7;
+  --color-ivory: #FAF8F2;
+  --color-gold: #C5A45D;
+  --color-charcoal: #26332D;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #FAF8F2;
+  color: #26332D;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+

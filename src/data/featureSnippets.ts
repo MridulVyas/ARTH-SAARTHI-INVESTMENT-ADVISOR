@@ -1,0 +1,161 @@
+import { Language } from '../types';
+
+export const featureSnippets: Record<Language, {
+  kicker: string;
+  tutorPrompt1: string;
+  tutorPrompt2: string;
+  claimTag: string;
+  claimSample1: string;
+  claimSample2: string;
+  academyTag: string;
+  academyFeature1: string;
+  academyFeature2: string;
+}> = {
+  en: {
+    kicker: 'Built for Everyday Citizens',
+    tutorPrompt1: 'What is an SIP vs Bank FD?',
+    tutorPrompt2: 'How does inflation eat my savings?',
+    claimTag: 'Fraud Forensic Lab',
+    claimSample1: 'Guaranteed 2% daily returns bot',
+    claimSample2: 'Unregistered Telegram VIP jackpot tips',
+    academyTag: 'Foundation Academy',
+    academyFeature1: '6 Core Modules + Interactive Quizzes',
+    academyFeature2: 'Myth vs Fact & Indian Practical Rules',
+  },
+  hi: {
+    kicker: 'विशेष टूल्स',
+    tutorPrompt1: 'एसआईपी और एफडी में क्या अंतर है?',
+    tutorPrompt2: 'महंगाई मेरी बचत कैसे कम करती है?',
+    claimTag: 'धोखाधड़ी जांच',
+    claimSample1: 'रोजाना 2% "गारंटीड" मुनाफा बॉट',
+    claimSample2: 'टेलीग्राम पर अनरजिस्टर्ड टिप्स सिंडिकेट',
+    academyTag: 'संरचित पाठ्यक्रम',
+    academyFeature1: '6 प्रमुख विषय + इंटरैक्टिव क्विज़',
+    academyFeature2: 'मिथक बनाम हकीकत और प्रो-टिप्स',
+  },
+  mr: {
+    kicker: 'विशेष साधने',
+    tutorPrompt1: 'एसआयपी आणि एफडीमध्ये काय फरक आहे?',
+    tutorPrompt2: 'महागाई माझ्या बचतीवर कसा परिणाम करते?',
+    claimTag: 'फसवणूक तपासणी',
+    claimSample1: 'दररोज २% "हमीभाव" नफा बॉट',
+    claimSample2: 'नोंदणी नसलेले टेलिग्राम व्हीआयपी टिप्स',
+    academyTag: 'मूलभूत अभ्यासक्रम',
+    academyFeature1: '६ मुख्य विषय + प्रश्नमंजुषा',
+    academyFeature2: 'गैरसमज विरुद्ध वास्तव आणि टिप्स',
+  },
+  ta: {
+    kicker: 'சிறப்பு கருவிகள்',
+    tutorPrompt1: 'SIP மற்றும் வங்கி FD-க்கு என்ன வித்தியாசம்?',
+    tutorPrompt2: 'பணவீக்கம் சேமிப்பை எவ்வாறு குறைக்கிறது?',
+    claimTag: 'மோசடி ஆய்வு மையம்',
+    claimSample1: 'தினமும் 2% உறுதி செய்யப்பட்ட லாப பாட்',
+    claimSample2: 'பதிவு செய்யப்படாத டெலிகிராம் ஜாக்பாட் டிப்ஸ்',
+    academyTag: 'அடிப்படைக் கல்வி',
+    academyFeature1: '6 முக்கிய தலைப்புகள் + வினாடி வினா',
+    academyFeature2: 'கற்பிதங்கள் vs உண்மை நிலவரம்',
+  },
+  te: {
+    kicker: 'ప్రత్యేక సాధనాలు',
+    tutorPrompt1: 'SIP మరియు బ్యాంక్ FD మధ్య తేడా ఏమిటి?',
+    tutorPrompt2: 'ద్రవ్యోల్బణం నా పొదుపును ఎలా తగ్గిస్తుంది?',
+    claimTag: 'మోసాల పరిశోధన',
+    claimSample1: 'రోజూ 2% గ్యారెంటీ లాభం బాట్',
+    claimSample2: 'రిజిస్టర్ కాని టెలిగ్రామ్ జాక్‌పాట్ చిట్కాలు',
+    academyTag: 'ప్రాథమిక అకాడమీ',
+    academyFeature1: '6 ప్రధాన పాఠాలు + క్విజ్‌లు',
+    academyFeature2: 'అపోహలు vs వాస్తవాలు మరియు చిట్కాలు',
+  },
+  bn: {
+    kicker: 'বিশেষ সরঞ্জাম',
+    tutorPrompt1: 'SIP এবং ব্যাংক FD এর মধ্যে পার্থক্য কি?',
+    tutorPrompt2: 'মুদ্রাস্ফীতি সঞ্চয়ের ওপর কীভাবে প্রভাব ফেলে?',
+    claimTag: 'জালিয়াতি যাচাই',
+    claimSample1: 'প্রতিদিন ২% নিশ্চিত রিটার্ন বট',
+    claimSample2: 'অননুমোদিত টেলিগ্রাম জ্যাকপট টিপস',
+    academyTag: 'মৌলিক শিক্ষা',
+    academyFeature1: '৬টি মূল মডিউল + কুইজ',
+    academyFeature2: 'ভুল ধারণা বনাম বাস্তবতা ও টিপস',
+  },
+  gu: {
+    kicker: 'વિશેષ સાધનો',
+    tutorPrompt1: 'SIP અને બેંક FD વચ્ચે શું તફાવત છે?',
+    tutorPrompt2: 'મોંઘવારી મારી બચત કેવી રીતે ઘટાડે છે?',
+    claimTag: 'છેતરપિંડી તપાસ',
+    claimSample1: 'રોજના ૨% ગેરંટીડ નફો આપતો બોટ',
+    claimSample2: 'નોંધણી વગરના ટેલિગ્રામ જેકપોટ ટિપ્સ',
+    academyTag: 'મૂળભૂત શિક્ષણ',
+    academyFeature1: '૬ મુખ્ય વિષયો + ક્વિઝ',
+    academyFeature2: 'માન્યતા વિરુદ્ધ હકીકત અને ટિપ્સ',
+  },
+  kn: {
+    kicker: 'ವಿಶೇಷ ಪರಿಕರಗಳು',
+    tutorPrompt1: 'SIP ಮತ್ತು ಬ್ಯಾಂಕ್ FD ನಡುವಿನ ವ್ಯತ್ಯಾಸವೇನು?',
+    tutorPrompt2: 'ಹಣದುಬ್ಬರ ಉಳಿತಾಯವನ್ನು ಹೇಗೆ ಕಡಿಮೆ ಮಾಡುತ್ತದೆ?',
+    claimTag: 'ವಂಚನೆ ತನಿಖೆ',
+    claimSample1: 'ದಿನಕ್ಕೆ 2% ಖಾತರಿಯ ಲಾಭ ನೀಡುವ ಬಾಟ್',
+    claimSample2: 'ನೋಂದಣಿಯಾಗದ ಟೆಲಿಗ್ರಾಂ ಜ್ಯಾಕ್‌ಪಾಟ್ ಟಿಪ್ಸ್',
+    academyTag: 'ಮೂಲಭೂತ ತರಬೇತಿ',
+    academyFeature1: '6 ಪ್ರಮುಖ ವಿಷಯಗಳು + ರಸಪ್ರಶ್ನೆಗಳು',
+    academyFeature2: 'ಮಿಥ್ಯೆ vs ವಾಸ್ತವ ಮತ್ತು ನಿಯಮಗಳು',
+  },
+  ml: {
+    kicker: 'പ്രത്യേക ടൂളുകൾ',
+    tutorPrompt1: 'SIP-യും ബാങ്ക് FD-യും തമ്മിലുള്ള വ്യത്യാസം എന്താണ്?',
+    tutorPrompt2: 'പണപ്പെരുപ്പം എന്റെ സമ്പാദ്യത്തെ എങ്ങനെ ബാധിക്കുന്നു?',
+    claimTag: 'തട്ടിപ്പ് പരിശോധന',
+    claimSample1: 'ദിവസേന 2% ഉറപ്പുള്ള ലാഭം നൽകുന്ന ബോട്ട്',
+    claimSample2: 'രജിസ്റ്റർ ചെയ്യാത്ത ടെലഗ്രാം ജാക്ക്പോട്ട് ടിപ്പുകൾ',
+    academyTag: 'അടിസ്ഥാന വിദ്യാഭ്യാസം',
+    academyFeature1: '6 പ്രധാന പാഠങ്ങൾ + ക്വിസ്സ്',
+    academyFeature2: 'ധാരണകളും യാഥാർത്ഥ്യങ്ങളും',
+  },
+  pa: {
+    kicker: 'ਖ਼ਾਸ ਸਾਧਨ',
+    tutorPrompt1: 'SIP ਅਤੇ ਬੈਂਕ FD ਵਿੱਚ ਕੀ ਅੰਤਰ ਹੈ?',
+    tutorPrompt2: 'ਮਹਿੰਗਾਈ ਮੇਰੀ ਬੱਚਤ ਨੂੰ ਕਿਵੇਂ ਘਟਾਉਂਦੀ ਹੈ?',
+    claimTag: 'ਧੋਖਾਧੜੀ ਜਾਂਚ',
+    claimSample1: 'ਰੋਜ਼ਾਨਾ 2% ਗਾਰੰਟੀਸ਼ੁਦਾ ਮੁਨਾਫ਼ਾ ਬੋਟ',
+    claimSample2: 'ਗ਼ੈਰ-ਰਜਿਸਟਰਡ ਟੈਲੀਗ੍ਰਾਮ ਜੈਕਪਾਟ ਟਿਪਸ',
+    academyTag: 'ਮੁੱਢਲੀ ਸਿੱਖਿਆ',
+    academyFeature1: '6 ਮੁੱਖ ਵਿਸ਼ੇ + ਕੁਇਜ਼',
+    academyFeature2: 'ਵਹਿਮ ਬਨਾਮ ਹਕੀਕਤ ਅਤੇ ਟਿਪਸ',
+  },
+  or: {
+    kicker: 'ବିଶେଷ ଉପକରଣ',
+    tutorPrompt1: 'SIP ଏବଂ ବ୍ୟାଙ୍କ FD ମଧ୍ୟରେ ପାର୍ଥକ୍ୟ କ’ଣ?',
+    tutorPrompt2: 'ମୁଦ୍ରାସ୍ଫୀତି ସଞ୍ଚୟ ଉପରେ କିପରି ପ୍ରଭାବ ପକାଏ?',
+    claimTag: 'ଠକେଇ ଯାଞ୍ଚ',
+    claimSample1: 'ଦୈନିକ ୨% ନିଶ୍ଚିତ ଲାଭ ବଟ୍',
+    claimSample2: 'ଅଣପଞ୍ଜୀକୃତ ଟେଲିଗ୍ରାମ୍ ଜ୍ୟାକପଟ୍ ଟିପ୍ସ',
+    academyTag: 'ମୌଳିକ ଶିକ୍ଷା',
+    academyFeature1: '୬ଟି ମୁଖ୍ୟ ବିଷୟ + କୁଇଜ୍',
+    academyFeature2: 'ଭ୍ରାନ୍ତ ଧାରଣା ବନାମ ବାସ୍ତବତା',
+  },
+  ur: {
+    kicker: 'خصوصی ٹولز',
+    tutorPrompt1: 'SIP اور بینک FD میں کیا فرق ہے؟',
+    tutorPrompt2: 'مہنگائی میری بچت کو کیسے کم کرتی ہے؟',
+    claimTag: 'فراڈ تحقیقاتی لیب',
+    claimSample1: 'روزانہ 2% گارنٹی شدہ منافع بوٹ',
+    claimSample2: 'غیر رجسٹرڈ ٹیلیگرام وی آئی پی ٹپس',
+    academyTag: 'بنیادی اکیڈمی',
+    academyFeature1: '6 بنیادی ماڈیولز + کوئز',
+    academyFeature2: 'مفروضے بمقابلہ حقیقت اور اصول',
+  },
+  as: {
+    kicker: 'বিশেষ সঁজুলি',
+    tutorPrompt1: 'SIP আৰু বেংক FD ৰ মাজত কি পাৰ্থক্য?',
+    tutorPrompt2: 'মুদ্ৰাস্ফীতিয়ে সঞ্চয়ৰ কেনেকৈ ক্ষতি কৰে?',
+    claimTag: 'প্ৰৱঞ্চনা পৰীক্ষণ',
+    claimSample1: 'দৈনিক ২% নিশ্চিত লাভ দিয়া বট',
+    claimSample2: 'অনথিভুক্ত টেলিগ্ৰাম জেকপট টিপছ',
+    academyTag: 'মৌলিক শিক্ষা',
+    academyFeature1: '৬টা মূল পাঠ + কুইজ',
+    academyFeature2: 'ভ্ৰান্ত ধাৰণা বনাম বাস্তৱ আৰু দিহা',
+  },
+};
+
+export function getFeatureSnippets(lang: Language) {
+  return featureSnippets[lang] || featureSnippets.en;
+}

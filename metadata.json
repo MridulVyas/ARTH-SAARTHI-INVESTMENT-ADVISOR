@@ -1,0 +1,8 @@
+{
+  "name": "Remix Arth Saarthi — Investing made simple for Bharat",
+  "description": "Arth Saarthi — Investor education platform empowering Bharat to understand money, build wealth safely, and detect misleading financial claims.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
